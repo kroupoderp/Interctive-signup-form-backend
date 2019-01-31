@@ -1,0 +1,8 @@
+extends main
+block content
+  .container
+    form(action='/Search', method='POST')
+      div(class='form-items')
+        label(for='name_search') search
+        input#name_search(type='text', name='nameSearch')
+        button(type='submit') Submit

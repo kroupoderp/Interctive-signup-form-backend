@@ -1,0 +1,84 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Merriweather;
+}
+
+header {
+    display: block;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+
+form {
+    margin-top: 20px;
+}
+
+input,button {
+    margin-top: 10px;
+    border-radius: 3px;
+    border: none;
+    font-family: Merriweather;
+    height: 28px;
+}
+
+input {
+    outline: none;
+    font-size: 100%;
+    line-height: 1.15; 
+    margin: 0;
+    border-radius: 3px;
+    width: 100%;
+    background: #dcdcdc;
+    padding-left: 8px;
+}
+
+button {
+    position: relative;
+    bottom: 2px;
+    margin-left: 8px; 
+    background-color: #48d1cc;
+    color: white;
+    font-weight: 900;
+}
+
+label {
+    margin-right: 8px;
+}
+
+.banner {
+    background: #191970;
+    padding: 1.5em 0;
+    color: #fff;
+}
+
+.container {
+    padding: 1em;
+    height: 462px;
+}
+
+.wrap {
+    min-height: calc(100vh - 92px)
+}
+
+footer {
+    background-color: #34495e;
+    padding: 20px 0;
+    color: white;
+}
+
+@media (min-width: 468px) {
+    input {
+        width: 280px;
+        height: 30px;
+    }
+}
